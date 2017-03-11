@@ -1,4 +1,5 @@
 require("dotenv").load()
+require("./src/server")
 
 const logger = require("winston")
 const ImageProcessor = require("./src/image-processor")
